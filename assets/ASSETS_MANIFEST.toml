@@ -1,0 +1,38 @@
+# Art + audio only. Watermark clears when every status is "human".
+# Replace files in place, then set status = "human".
+
+[[asset]]
+path = "assets/art/tiles/grass_32.png"
+slot = "tile_grass"
+status = "ai"
+notes = "32x32 ground tile"
+
+[[asset]]
+path = "assets/art/characters/tower_idle.png"
+slot = "tower_idle"
+status = "ai"
+notes = "64x64 archer/tower idle"
+
+[[asset]]
+path = "assets/art/characters/monster_walk_01.png"
+slot = "monster_walk_01"
+status = "ai"
+notes = "32x32 enemy walk frame"
+
+[[asset]]
+path = "assets/art/props/gate_64.png"
+slot = "gate_front"
+status = "ai"
+notes = "64x64 player gate"
+
+[[asset]]
+path = "assets/art/ui/icon_gold.png"
+slot = "ui_gold"
+status = "ai"
+notes = "HUD gold icon"
+
+[[asset]]
+path = "assets/audio/sfx_place_tower.wav"
+slot = "sfx_place_tower"
+status = "ai"
+notes = "Place tower SFX"
